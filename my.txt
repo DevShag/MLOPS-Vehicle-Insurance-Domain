@@ -5,3 +5,5 @@ mongo_db pass : zQNKHmTXi2XKrmJP
 
 connection string
 mongodb+srv://alishaguftadev_db_user:<db_password>@cluster0.zrdpsmb.mongodb.net/?appName=Cluster0
+
+mongodb+srv://alishaguftadev_db_user:zQNKHmTXi2XKrmJP@cluster0.zrdpsmb.mongodb.net/?appName=Cluster0
