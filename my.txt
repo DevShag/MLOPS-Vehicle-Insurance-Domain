@@ -1,9 +1,24 @@
+Create a virtual env, activate it and install the requirements from requirements.txt
+conda create -n vehicle python=3.10 -y
+conda activate vehicle
+add required modules to requirements.txt
+Do "pip install -r requirements.txt"
+Do a "pip list" on terminal to make sure you have local packages installed.
+
+
 mongo_db user name - alishaguftadev_db_user
 mongo_db pass : zQNKHmTXi2XKrmJP
 
 
 
-connection string
+connection string:
 mongodb+srv://alishaguftadev_db_user:<db_password>@cluster0.zrdpsmb.mongodb.net/?appName=Cluster0
 
 mongodb+srv://alishaguftadev_db_user:zQNKHmTXi2XKrmJP@cluster0.zrdpsmb.mongodb.net/?appName=Cluster0
+
+
+setting mondodb environment in powershell(teminal)
+$env:MONGODB_URL = "mongodb+srv://alishaguftadev_db_user:zQNKHmTXi2XKrmJP@cluster0.zrdpsmb.mongodb.net/?appName=Cluster0"
+
+check: 
+echo $env:MONGODB_URL
